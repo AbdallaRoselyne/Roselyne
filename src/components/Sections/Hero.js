@@ -6,7 +6,7 @@ const Hero = ({ setActiveSection }) => {
   return (
     <section
       id="home"
-      className="relative pt-32 pb-20 px-6 min-h-screen flex items-center"
+      className="relative pt-32 pb-8 px-6 min-h-screen flex items-center"
       onViewportEnter={() => setActiveSection("home")}
     >
       <div className="container mx-auto">
@@ -17,13 +17,15 @@ const Hero = ({ setActiveSection }) => {
           className="max-w-3xl"
         >
           <AnimatedText
-            text="Innovative Software Developer"
+            text="Hi, I'm Roselyne Osundwa"
             className="text-4xl md:text-6xl font-bold mb-6"
           />
 
           <p className="text-xl text-gray-300 mb-8">
-            Creating cutting-edge solutions with MERN stack, Python, SQL, Power
-            BI, Tableau and Cloud Technologies
+            A full-stack developer and tech-for-impact enthusiast blending MERN,
+            Python, and cloud tools to build digital experiences that solve real
+            problems. Passionate about clean code, clean water, and climate
+            action.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -37,7 +39,7 @@ const Hero = ({ setActiveSection }) => {
               }
               className="px-6 py-3 bg-gradient-to-r from-primary to-secondary rounded-lg font-medium flex items-center gap-2"
             >
-              View My Work <FiArrowRight />
+              Explore My Work <FiArrowRight />
             </motion.button>
 
             <motion.button
@@ -48,7 +50,7 @@ const Hero = ({ setActiveSection }) => {
               }
               className="px-6 py-3 border border-gray-700 rounded-lg font-medium hover:bg-gray-800 transition-colors"
             >
-              Contact Me
+              Let's Connect
             </motion.button>
           </div>
         </motion.div>
